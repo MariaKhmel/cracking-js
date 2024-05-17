@@ -1,2 +1,0 @@
-const e=()=>{let e=0;return{getCurrentCount:()=>e,increaseCount:()=>(e+=1,e),decreaseCount:()=>(e-=1,e)}};e(),e();(function(...e){console.log("this:",this),console.log("args:",e)}).bind({name:"Bob"},"here","there");const n=(e,n)=>(console.log("num1",e),console.log("num2",n),e*n),o=(n.bind(null,4),(e,n)=>2===arguments.length?e*n:n=>o(e,n));o(3)(5)();!async function(){new Promise(((e,n)=>fetch("https://pokeapi.co/api/v2/item/1/?limit=10&offset=10"))).catch((e=>reject(e)))}();
-//# sourceMappingURL=index.14624a7f.js.map
